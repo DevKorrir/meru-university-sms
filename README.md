@@ -4,7 +4,7 @@ A modular School Management System implemented in Python that demonstrates the p
 
 ## 📋 Project Overview
 
-This system was developed as part of the Data Structures and Algorithms course (Sem1-2025/2026) to modernize Meru University's internal systems. The prototype efficiently handles student registration, course scheduling, fee tracking, library management, and performance analytics using optimized data structures.
+This system was developed as part of the Data Structures and Algorithms course to modernize Meru University's internal systems. The prototype efficiently handles student registration, course scheduling, fee tracking, library management, and performance analytics using optimized data structures.
 
 ## 🏗️ System Architecture
 
@@ -70,3 +70,59 @@ cd school-management-system
 
 # Run the system
 python main.py
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🤝 Contributing
+
+This is a group project for educational purposes. For contributions:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is for educational purposes as part of Meru University's Data Structures and Algorithms course.
+
+## 👥 Team Members
+- Aldo Kipyegon Korir
+- Wambui Samuel Mwangi
+- Mwanik Paul Kibe
+- Omwoyo Miriam Bwari
+
+## 📚 Course Information
+- **Course**: Data Structures and Algorithms
+- **Instructor**: Dismas Kitaria
+- **Semester**: Sem1-2025/2026
+- **Due Date**: */10/2025
+```

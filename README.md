@@ -29,9 +29,12 @@ school_management/
 │
 ├── utils/            # Helper functions
 │   ├── __init__.py
-│   └── helpers.py
+│   ├── helpers.py
+│   └── validators.py
 │
 ├── data/             # Data storage
+│   ├── __init__.py
+│   ├── sample_data.py
 │   ├── students.json
 │   ├── courses.json
 │   └── transactions.json
@@ -39,7 +42,10 @@ school_management/
 ├── tests/            # Unit tests
 │   ├── __init__.py
 │   ├── test_student_registry.py
-│   └── test_course_scheduler.py
+│   ├── test_course_scheduler.py
+│   ├── test_fee_tracker.py
+│   ├── test_library_system.py
+│   └── test_analytics_engine.py
 │
 ├── main.py           # Entry point
 ├── requirements.txt

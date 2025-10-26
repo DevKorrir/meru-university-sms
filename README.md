@@ -125,4 +125,11 @@ This project is for educational purposes as part of Meru University's Data Struc
 - **Instructor**: Dismas Kitaria
 - **Semester**: Sem1-2025/2026
 - **Due Date**: */10/2025
-```
+
+---
+
+**⭐ If you find this project helpful, please give it a star!**
+
+---
+
+Made with ❤️ by Group two at Meru University

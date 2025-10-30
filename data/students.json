@@ -1,0 +1,82 @@
+{
+  "S003": {
+    "student_id": "S003",
+    "name": "Carol Wanjiru",
+    "email": "carol@meru.edu",
+    "year": 1,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S004": {
+    "student_id": "S004",
+    "name": "David Ochieng",
+    "email": "david@meru.edu",
+    "year": 3,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S005": {
+    "student_id": "S005",
+    "name": "Eva Akinyi",
+    "email": "eva@meru.edu",
+    "year": 2,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S006": {
+    "student_id": "S006",
+    "name": "Frank Otieno",
+    "email": "frank@meru.edu",
+    "year": 4,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S007": {
+    "student_id": "S007",
+    "name": "Grace Wambui",
+    "email": "grace@meru.edu",
+    "year": 1,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S008": {
+    "student_id": "S008",
+    "name": "Henry Mutua",
+    "email": "henry@meru.edu",
+    "year": 3,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S009": {
+    "student_id": "S009",
+    "name": "Aldo Kipyegon",
+    "email": "kipyegonaldo@gmail.com",
+    "year": 2,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S001": {
+    "student_id": "S001",
+    "name": "Alice Mwangi",
+    "email": "alice@meru.edu",
+    "year": 2,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S002": {
+    "student_id": "S002",
+    "name": "Brian Kimani",
+    "email": "brian@meru.edu",
+    "year": 2,
+    "courses": [],
+    "fees_paid": 0
+  },
+  "S010": {
+    "student_id": "S010",
+    "name": "Aldo Korryr",
+    "email": "Kipyegonaldo@gmail.com",
+    "year": 2,
+    "courses": [],
+    "fees_paid": 20000.0
+  }
+}

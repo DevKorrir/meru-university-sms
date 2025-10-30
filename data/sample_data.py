@@ -88,7 +88,7 @@ def initialize_sample_data(system):
     for student_id, amount, description in payments:
         try:
             transaction = system.fee_tracker.add_payment(student_id, amount, description)
-            print(f"  ✓ Payment of ${amount:,} for {student_id}")
+            print(f"  ✓ Payment of Ksh.{amount:,} for {student_id}")
         except Exception as e:
             print(f"  ✗ Failed to add payment for {student_id}: {e}")
 

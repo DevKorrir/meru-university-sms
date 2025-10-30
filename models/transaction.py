@@ -53,7 +53,7 @@ class Transaction:
         )
 
     def __str__(self):
-        return f"Transaction(ID: {self.transaction_id}, Student: {self.student_id}, Amount: ${self.amount:.2f})"
+        return f"Transaction(ID: {self.transaction_id}, Student: {self.student_id}, Amount: Ksh.{self.amount:.2f})"
 
     def __lt__(self, other):
         """Less than comparison for BST (sort by amount)"""

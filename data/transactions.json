@@ -1,0 +1,9 @@
+{
+  "000T1": {
+    "transaction_id": "000T1",
+    "student_id": "S010",
+    "amount": 20000.0,
+    "description": "TutionFee",
+    "date": "2025-10-31"
+  }
+}

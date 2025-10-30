@@ -1,0 +1,79 @@
+{
+  "CS101": {
+    "course_id": "CS101",
+    "name": "Data Structures",
+    "capacity": 3,
+    "enrolled_students": [
+      "S001",
+      "S002",
+      "S003"
+    ],
+    "waitlist": [
+      "S004"
+    ]
+  },
+  "MATH201": {
+    "course_id": "MATH201",
+    "name": "Calculus II",
+    "capacity": 2,
+    "enrolled_students": [
+      "S001",
+      "S005"
+    ],
+    "waitlist": [
+      "S002"
+    ]
+  },
+  "PHY301": {
+    "course_id": "PHY301",
+    "name": "Advanced Physics",
+    "capacity": 4,
+    "enrolled_students": [
+      "S003",
+      "S004",
+      "S005",
+      "S006"
+    ],
+    "waitlist": []
+  },
+  "ENG101": {
+    "course_id": "ENG101",
+    "name": "English Composition",
+    "capacity": 5,
+    "enrolled_students": [
+      "S001",
+      "S007",
+      "S008"
+    ],
+    "waitlist": []
+  },
+  "CHEM101": {
+    "course_id": "CHEM101",
+    "name": "General Chemistry",
+    "capacity": 3,
+    "enrolled_students": [
+      "S002",
+      "S006",
+      "S007"
+    ],
+    "waitlist": []
+  },
+  "BIO201": {
+    "course_id": "BIO201",
+    "name": "Biology Fundamentals",
+    "capacity": 4,
+    "enrolled_students": [
+      "S005",
+      "S008",
+      "S003"
+    ],
+    "waitlist": []
+  },
+  "BBIT101": {
+    "course_id": "BBIT101",
+    "name": "Bachelor of IT",
+    "capacity": 120,
+    "enrolled_students": [],
+    "waitlist": []
+  }
+}

@@ -99,7 +99,7 @@ class SchoolManagementSystem:
             print(f"  Email: {student.email}")
             print(f"  Year: {student.year}")
             print(f"  Courses: {', '.join(student.courses) if student.courses else 'None'}")
-            print(f"  Fees Paid: ${student.fees_paid:,.2f}")
+            print(f"  Fees Paid: Ksh.{student.fees_paid:,.2f}")
         else:
             print("✗ Student not found")
     
@@ -346,7 +346,7 @@ class SchoolManagementSystem:
             print(f"✓ Transaction found:")
             print(f"  ID: {transaction.transaction_id}")
             print(f"  Student: {transaction.student_id}")
-            print(f"  Amount: ${transaction.amount:,.2f}")
+            print(f"  Amount: ksh.{transaction.amount:,.2f}")
             print(f"  Date: {transaction.date}")
             print(f"  Description: {transaction.description}")
         else:
@@ -364,10 +364,10 @@ class SchoolManagementSystem:
         
         total_paid = sum(tx.amount for tx in transactions)
         print(f"\nPayment History for {student_id}:")
-        print(f"Total Paid: ${total_paid:,.2f}")
+        print(f"Total Paid: Ksh.{total_paid:,.2f}")
         print("\nTransactions:")
         for tx in transactions:
-            print(f"  {tx.date}: ${tx.amount:,.2f} - {tx.description}")
+            print(f"  {tx.date}: Ksh.{tx.amount:,.2f} - {tx.description}")
     
     def generate_clearance_report(self):
         """Generate fee clearance report"""
@@ -378,16 +378,16 @@ class SchoolManagementSystem:
             report = self.fee_tracker.generate_clearance_report(required_amount)
             
             print(f"\n=== FEE CLEARANCE REPORT ===")
-            print(f"Required Amount: ${required_amount:,.2f}")
+            print(f"Required Amount: Ksh.{required_amount:,.2f}")
             print(f"Clearance Rate: {report['clearance_rate']:.1%}")
             
             print(f"\nCLEARED STUDENTS ({len(report['cleared_students'])}):")
             for student in report['cleared_students']:
-                print(f"  {student['student_id']}: ${student['total_paid']:,.2f}")
+                print(f"  {student['student_id']}: Ksh.{student['total_paid']:,.2f}")
             
             print(f"\nPENDING STUDENTS ({len(report['pending_students'])}):")
             for student in report['pending_students']:
-                print(f"  {student['student_id']}: ${student['total_paid']:,.2f} paid (Owes: ${student['amount_owed']:,.2f})")
+                print(f"  {student['student_id']}: Ksh.{student['total_paid']:,.2f} paid (Owes: Ksh.{student['amount_owed']:,.2f})")
                 
         except ValueError as e:
             print(f"✗ Invalid input: {e}")
@@ -403,10 +403,10 @@ class SchoolManagementSystem:
         
         total_revenue = self.fee_tracker.get_total_revenue()
         print(f"\n--- ALL TRANSACTIONS ({len(transactions)} total) ---")
-        print(f"Total Revenue: ${total_revenue:,.2f}")
+        print(f"Total Revenue: Ksh.{total_revenue:,.2f}")
         print("\nTransactions (sorted by amount):")
         for tx in transactions:
-            print(f"  ${tx.amount:>8,.2f} - {tx.student_id} - {tx.description}")
+            print(f"  Ksh.{tx.amount:>8,.2f} - {tx.student_id} - {tx.description}")
     
     def library_management_menu(self):
         """Library management submenu"""

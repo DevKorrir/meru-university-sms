@@ -47,7 +47,7 @@ def get_timestamp():
 
 def format_currency(amount):
     """Format amount as currency"""
-    return f"${amount:,.2f}"
+    return f"Ksh {amount:,.2f}"
 
 def validate_input(prompt, validation_func, error_message="Invalid input"):
     """Get validated input from user"""

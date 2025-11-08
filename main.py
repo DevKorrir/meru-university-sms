@@ -700,7 +700,7 @@ class SchoolManagementSystem:
         # 3. Fee Tracking Demo
         print("\n3. FEE TRACKING (BST):")
         print(f"   Total transactions: {len(self.fee_tracker)}")
-        print(f"   Total revenue: ${self.fee_tracker.get_total_revenue():,.2f}")
+        print(f"   Total revenue: Ksh {self.fee_tracker.get_total_revenue():,.2f}")
         
         # Generate clearance report
         clearance_report = self.fee_tracker.generate_clearance_report(40000)

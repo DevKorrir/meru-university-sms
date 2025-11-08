@@ -135,7 +135,7 @@ class FeeTracker:
         return sum(tx.amount for tx in self.transactions.values())
 
     def __str__(self):
-        return f"FeeTracker({len(self.transactions)} transactions, Total: ${self.get_total_revenue():,.2f})"
+        return f"FeeTracker({len(self.transactions)} transactions, Total: Ksh {self.get_total_revenue():,.2f})"
 
     def __len__(self):
         return len(self.transactions)

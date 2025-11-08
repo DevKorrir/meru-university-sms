@@ -1,0 +1,84 @@
+{
+  "ISBN-001-001": {
+    "isbn": "ISBN-001-001",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas Cormen",
+    "total_copies": 3,
+    "available_copies": 2,
+    "borrow_history": [
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-08T23:25:36.456845"
+      },
+      {
+        "student_id": "S002",
+        "action": "borrowed",
+        "timestamp": "2025-11-08T23:25:36.457904"
+      },
+      {
+        "student_id": "S001",
+        "action": "returned",
+        "timestamp": "2025-11-08T23:25:36.461058"
+      }
+    ]
+  },
+  "ISBN-002-002": {
+    "isbn": "ISBN-002-002",
+    "title": "Calculus Made Easy",
+    "author": "Silvanus Thompson",
+    "total_copies": 2,
+    "available_copies": 1,
+    "borrow_history": [
+      {
+        "student_id": "S003",
+        "action": "borrowed",
+        "timestamp": "2025-11-08T23:25:36.458848"
+      }
+    ]
+  },
+  "ISBN-003-003": {
+    "isbn": "ISBN-003-003",
+    "title": "Python Programming",
+    "author": "John Smith",
+    "total_copies": 4,
+    "available_copies": 3,
+    "borrow_history": [
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-08T23:25:36.459807"
+      }
+    ]
+  },
+  "ISBN-004-004": {
+    "isbn": "ISBN-004-004",
+    "title": "Physics for Scientists",
+    "author": "Paul Hewitt",
+    "total_copies": 1,
+    "available_copies": 0,
+    "borrow_history": [
+      {
+        "student_id": "S004",
+        "action": "borrowed",
+        "timestamp": "2025-11-08T23:25:36.462118"
+      }
+    ]
+  },
+  "ISBN-005-005": {
+    "isbn": "ISBN-005-005",
+    "title": "Chemistry: The Central Science",
+    "author": "Theodore Brown",
+    "total_copies": 2,
+    "available_copies": 2,
+    "borrow_history": []
+  },
+  "ISBN-006-006": {
+    "isbn": "ISBN-006-006",
+    "title": "Biology: Concepts and Connections",
+    "author": "Neil Campbell",
+    "total_copies": 3,
+    "available_copies": 3,
+    "borrow_history": []
+  }
+}

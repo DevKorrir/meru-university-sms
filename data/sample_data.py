@@ -95,12 +95,12 @@ def initialize_sample_data(system):
     # Add library books
     print("Adding library books...")
     books = [
-        ("ISBN001", "Introduction to Algorithms", "Thomas Cormen", 3),
-        ("ISBN002", "Calculus Made Easy", "Silvanus Thompson", 2),
-        ("ISBN003", "Python Programming", "John Smith", 4),
-        ("ISBN004", "Physics for Scientists", "Paul Hewitt", 1),
-        ("ISBN005", "Chemistry: The Central Science", "Theodore Brown", 2),
-        ("ISBN006", "Biology: Concepts and Connections", "Neil Campbell", 3)
+        ("ISBN-001-001", "Introduction to Algorithms", "Thomas Cormen", 3),
+        ("ISBN-002-002", "Calculus Made Easy", "Silvanus Thompson", 2),
+        ("ISBN-003-003", "Python Programming", "John Smith", 4),
+        ("ISBN-004-004", "Physics for Scientists", "Paul Hewitt", 1),
+        ("ISBN-005-005", "Chemistry: The Central Science", "Theodore Brown", 2),
+        ("ISBN-006-006", "Biology: Concepts and Connections", "Neil Campbell", 3)
     ]
 
     for isbn, title, author, copies in books:
@@ -113,12 +113,12 @@ def initialize_sample_data(system):
     # Simulate some book borrow/return activity
     print("Simulating library activity...")
     library_actions = [
-        ("ISBN001", "S001", "borrow"),
-        ("ISBN001", "S002", "borrow"),
-        ("ISBN002", "S003", "borrow"),
-        ("ISBN003", "S001", "borrow"),
-        ("ISBN001", "S001", "return"),
-        ("ISBN004", "S004", "borrow")
+        ("ISBN-001-001", "S001", "borrow"),
+        ("ISBN-001-001", "S002", "borrow"),
+        ("ISBN-002-002", "S003", "borrow"),
+        ("ISBN-003-003", "S001", "borrow"),
+        ("ISBN-001-001", "S001", "return"),
+        ("ISBN-004-004", "S004", "borrow")
     ]
 
     for isbn, student_id, action in library_actions:

@@ -4,7 +4,7 @@
     "title": "Introduction to Algorithms",
     "author": "Thomas Cormen",
     "total_copies": 3,
-    "available_copies": 2,
+    "available_copies": 1,
     "borrow_history": [
       {
         "student_id": "S001",
@@ -20,6 +20,31 @@
         "student_id": "S001",
         "action": "returned",
         "timestamp": "2025-11-08T23:25:36.461058"
+      },
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T09:47:55.695646"
+      },
+      {
+        "student_id": "S002",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T09:47:55.696967"
+      },
+      {
+        "student_id": "S001",
+        "action": "returned",
+        "timestamp": "2025-11-09T09:47:55.700947"
+      },
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T10:18:48.091558"
+      },
+      {
+        "student_id": "S001",
+        "action": "returned",
+        "timestamp": "2025-11-09T10:18:48.093861"
       }
     ]
   },
@@ -28,12 +53,17 @@
     "title": "Calculus Made Easy",
     "author": "Silvanus Thompson",
     "total_copies": 2,
-    "available_copies": 1,
+    "available_copies": 0,
     "borrow_history": [
       {
         "student_id": "S003",
         "action": "borrowed",
         "timestamp": "2025-11-08T23:25:36.458848"
+      },
+      {
+        "student_id": "S003",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T09:47:55.698129"
       }
     ]
   },
@@ -42,12 +72,22 @@
     "title": "Python Programming",
     "author": "John Smith",
     "total_copies": 4,
-    "available_copies": 3,
+    "available_copies": 1,
     "borrow_history": [
       {
         "student_id": "S001",
         "action": "borrowed",
         "timestamp": "2025-11-08T23:25:36.459807"
+      },
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T09:47:55.699600"
+      },
+      {
+        "student_id": "S001",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T10:18:48.092777"
       }
     ]
   },
@@ -80,5 +120,19 @@
     "total_copies": 3,
     "available_copies": 3,
     "borrow_history": []
+  },
+  "ISBN-007-007": {
+    "isbn": "ISBN-007-007",
+    "title": "History",
+    "author": "Aldo",
+    "total_copies": 3,
+    "available_copies": 2,
+    "borrow_history": [
+      {
+        "student_id": "S002",
+        "action": "borrowed",
+        "timestamp": "2025-11-09T01:00:31.474686"
+      }
+    ]
   }
 }

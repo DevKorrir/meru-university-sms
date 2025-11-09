@@ -26,20 +26,23 @@ def load_from_json(filename):
 def generate_id(prefix, existing_ids, length=4):
     """Generate a unique ID with given prefix"""
     if not existing_ids:
-        return f"{prefix}1".zfill(len(prefix) + length)
+        return f"{prefix}{str(1).zfill(length)}"
 
     # Extract numeric parts and find max
     numbers = []
     for id_str in existing_ids:
-        if id_str.startswith(prefix):
+        # Check if ID contains the prefix (handle zero-padded IDs)
+        if prefix in id_str:
             try:
-                num = int(id_str[len(prefix):])
+                # Extract the numeric part after the prefix
+                num_part = id_str.split(prefix)[-1]
+                num = int(num_part)
                 numbers.append(num)
             except ValueError:
                 continue
 
     next_num = max(numbers) + 1 if numbers else 1
-    return f"{prefix}{next_num}".zfill(len(prefix) + length)
+    return f"{prefix}{str(next_num).zfill(length)}"
 
 def get_timestamp():
     """Get current timestamp"""

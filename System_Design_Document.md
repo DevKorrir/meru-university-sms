@@ -2,7 +2,7 @@
 
 **Course:** Data Structures and Algorithms  
 **Institution:** Meru University  
-**Team Members:** [Add your names here]  
+**Team Members:** Group 2  
 **Date:** October 2025
 
 ---

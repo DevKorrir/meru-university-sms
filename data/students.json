@@ -13,7 +13,7 @@
     "email": "david@meru.edu",
     "year": 3,
     "courses": [],
-    "fees_paid": 0
+    "fees_paid": 35000.0
   },
   "S005": {
     "student_id": "S005",
@@ -77,6 +77,6 @@
     "email": "Kipyegonaldo@gmail.com",
     "year": 2,
     "courses": [],
-    "fees_paid": 20000.0
+    "fees_paid": 92300.0
   }
 }
